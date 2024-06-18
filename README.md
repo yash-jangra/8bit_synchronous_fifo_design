@@ -11,6 +11,8 @@
 **Files**
 - sync_fifo.v: Verilog module for the 8-bit Synchronous FIFO.
 - tb.v: Testbench for the FIFO module.
+- tb.tcl: TCL script for running the simulation.
+- Snapshot of xsim simulation.
 
 **Usage**
 - The FIFO module can be instantiated in other Verilog designs to handle buffering and data flow control. The testbench demonstrates basic read and write operations.
